@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to right bottom, #5d7598, #6c97a8, #91b5b4, #c0d1c7, #eceee7);    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+.container{
+    background-color: rgb(7, 42, 61);
+    color: white;
+    border-radius: 20px;
+   
+    padding: 10px;
+    text-align: center;
+}
+.currencyContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.currencyContainer select{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.currencyContainer input{
+    font-size: 25px;
+    text-align: right;
+    border: none;
+    background: transparent;
+    color: white;
+}
+.currencyContainer span{
+    font-size: 25px;
+    color: white;
+}
+input:focus,
+select:focus{
+    outline: none;
+}
+.exchangeRate{
+    font-weight: 600;
+}
